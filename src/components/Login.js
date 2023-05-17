@@ -1,5 +1,6 @@
 import { auth, provider } from "../Firebase";
 import { signInWithPopup, GoogleAuthProvider } from "firebase/auth";
+import {FcGoogle} from "react-icons/fc";
 
 function Login({ setUser, setAuth }) {
   const signInWithGoogle = () => {
@@ -22,10 +23,10 @@ function Login({ setUser, setAuth }) {
   };
 
   return (
-    <div>
-      <h1>Login</h1>
-      <p>Login to your account!</p>
-      <button onClick={signInWithGoogle}>Sign in with Google</button>
+    <div className="flex flex-col items-center">
+      <h1 className="text-xl">Login</h1>
+      <p className="text-md">Login to your account!</p>
+      <button onClick={signInWithGoogle}><FcGoogle /></button>
     </div>
   );
 }

@@ -44,6 +44,20 @@ module.exports = {
       'sm': '0 0 0.25rem rgba(0, 0, 0, 0.5)',
       'xs': '0 0 0.125rem rgba(0, 0, 0, 0.5)',
     },
+    padding: {
+      'xl': '1rem',
+      'lg': '0.75rem',
+      'md': '0.5rem',
+      'sm': '0.25rem',
+      'xs': '0.125rem',
+    },
+    margin: {
+      'xl': '1rem',
+      'lg': '0.75rem',
+      'md': '0.5rem',
+      'sm': '0.25rem',
+      'xs': '0.125rem',
+    }
   },
 },
   plugins: [],
